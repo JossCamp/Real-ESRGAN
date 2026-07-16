@@ -1,0 +1,19 @@
+# Requirements for Real-ESRGAN with Web UI and Optimized Training
+
+# Core dependencies
+basicsr>=1.4.2
+facexlib>=0.2.5
+gfpgan>=1.3.5
+numpy
+opencv-python
+Pillow
+torch>=1.7
+torchvision
+tqdm
+
+# Web UI dependencies
+gradio>=3.50.0
+
+# Performance optimizations (optional but recommended)
+# tensorboard  # For training visualization
+# wandb        # For experiment tracking
